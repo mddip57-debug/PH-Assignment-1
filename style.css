@@ -4,7 +4,7 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
 }
 .common-button{
@@ -21,7 +21,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 10px 0px;
     align-items: center;
     gap: 35px;
     max-width: 1200px;
@@ -36,4 +36,33 @@ nav{
     align-items: center;
 }
 
+.hero{
+    display:flex;
+    height: 784px;
+    width: 1551px;
+    background-size:cover;
+    background-color: darkblue;
+    background-image: url(./assets/banner.jpg);
+    background-position:center;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.overlay{
+    width: 650px;
+    color:white;
+}
 
+.overlay h1{
+    font-size:65px;
+    font-weight:700;
+}
+
+
+.overlay p{
+    font-size:20px;
+    line-height:1.09;
+    font-weight: 300px;
+    margin-top: 50px;
+    margin-bottom: 400px;
+}
