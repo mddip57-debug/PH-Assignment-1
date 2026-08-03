@@ -236,3 +236,61 @@ nav{
     color: white;
     border: none;
 }
+
+.confirmation{
+    width: 80%;
+    margin: 80px auto;
+    padding: 60px 40px;
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.confirmation h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.confirmation p{
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    color: #d1d5db;
+    line-height: 30px;
+}
+
+.confirm-btn{
+    margin-top: 35px;
+}
+
+.register-butn{
+    padding: 14px 30px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.register-butn{
+    background-color: #1d4ed8;
+}
+
+.contact-butn{
+    padding: 14px 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-butn{
+    background-color: white;
+    color: #0f172a;
+    border: #0f172a;
+}
